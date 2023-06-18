@@ -13,7 +13,7 @@
 #define _ACCNT 6
 
 
-const uint16_t PROGMEM combo_accent[] = {OSL(_SYM), KC_ENT, COMBO_END};
+const uint16_t PROGMEM combo_accent[] = {OSL(_SYM), MT(MOD_LCTL, KC_ENT), COMBO_END};
 const uint16_t PROGMEM combo_sym2[] = {OSL(_SYM), MT(MOD_LSFT, KC_SPC), COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
